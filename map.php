@@ -53,7 +53,7 @@ foreach ($rows as $r) {
 
       <!-- Plugin css for this page -->
     <link rel="stylesheet" href="/css/jquery-jvectormap.css">
-    <link rel="stylesheet" href="/css/flags/flag-icon.min.css">
+    <link rel="stylesheet" href="/css/flag-icon.min.css">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
