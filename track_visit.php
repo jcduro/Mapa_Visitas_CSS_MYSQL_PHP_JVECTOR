@@ -1,7 +1,7 @@
 
 <?php
 require __DIR__ . '/geo_helpers.php';
-require_once __DIR__ . "/../../conexion/conexion.php"; // tu PDO/mysqli
+require_once __DIR__ . "/conexion.php"; // tu PDO/mysqli
 
 
 
