@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/../../conexion/conexion.php"; // tu PDO/mysqli
+require_once __DIR__ . "/conexion.php"; // tu PDO/mysqli
 
 header('Content-Type: application/json; charset=utf-8');
 
