@@ -64,6 +64,7 @@ foreach ($rows as $r) {
   </head>
   <body>
 
+
 <header>
 
 <div class="header-wrap clearfix">
@@ -83,17 +84,51 @@ foreach ($rows as $r) {
 <main>
   <div id="audience-map" class="vector-map"></div>
 </main>
+<style>
+.centered-table {
+    width: 90%; max-width: 750px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #000 0%, #f8f9fa 100%); /* Blanco puro degradado */
+    border-collapse: collapse;
+    border: 2px solid #ddd; /* Línea exterior */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 
-<div class="projects-container">
-  <div class="table-responsive">
-    <table class="table">
+.centered-table th,
+.centered-table td {
+    border: 1px solid #ddd; /* Líneas divisorias internas */
+    padding: 12px 8px;
+    color: #fff; /* Letra negra */
+    text-align: left;
+}
+
+.centered-table th {
+    background: linear-gradient(90deg, #000 0%, #e9ecef 100%);
+    font-weight: bold;
+}
+</style>
+
+
+<table class="centered-table">
+
       <tbody>
-      <?php foreach ($rows as $row):
+         <tr>
+        <th>FLAG</th>
+        <th>COUNTRY</th>
+        <th>VISITAS</th>
+        <th>PORCENTAJE</th>
+        </tr>
+        <?php foreach ($rows as $row):
+            if (empty($row['iso_pais'])) continue;
+        
             $iso     = strtolower($row['iso_pais']);
             $visitas = (int)$row['visitas'];
             $porc    = $total > 0 ? round($visitas * 100 / $total, 2) : 0;
-      ?>
-        <tr>
+        ?>
+
+    
+         <tr>
           <td><i class="flag-icon flag-icon-<?= htmlspecialchars($iso) ?>"></i></td>
           <td><?= strtoupper(htmlspecialchars($iso)) ?></td>
           <td><?= $visitas ?></td>
@@ -102,8 +137,7 @@ foreach ($rows as $r) {
       <?php endforeach; ?>
       </tbody>
     </table>
-  </div>
-</div>
+      </div>
 
 
 <script
