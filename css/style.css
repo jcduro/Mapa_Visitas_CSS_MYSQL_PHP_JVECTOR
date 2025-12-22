@@ -125,7 +125,7 @@ nav.nav-menu a:hover {
 main {
 
 display: flex;
-   max-width: 460px;
+   max-width: 860px;
   margin: 30px auto 30px auto;
     background-color: #0c243cdd;
  border-radius: 12px;
@@ -134,7 +134,7 @@ display: flex;
 padding: 25px 30px;
   align-items: center;
   justify-content: center;
-  min-height: 200px;
+  min-height: 400px;
     text-align: center;
     position: relative;
 }
@@ -190,7 +190,7 @@ p {
 
 
 .vector-map {
-  width: 500px;
+  width: 800px;
   height: 300px; }
 
 
