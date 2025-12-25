@@ -20,7 +20,7 @@ Proyecto que registra las visitas a un sitio web en una base de datos y las mues
 
 ## ✨ Pruevalo Online
 
-[Mapa_Visitas](https://jcduro.bexartideas.com/proyectos/visitas_map/map.php)
+[Mapa_Visitas](https://jcduro.bexartideas.com/proyectos/dashjc/map.php)
 
 --- 
 
