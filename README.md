@@ -14,7 +14,7 @@ Proyecto que registra las visitas a un sitio web en una base de datos y las mues
 
 ##✨ Vista previa
 
-![mapa_visitas_Preview](preview.gif)
+![mapa_visitas_Preview](previewmap.gif)
 
 ---
 
