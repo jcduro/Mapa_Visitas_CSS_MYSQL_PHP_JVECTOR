@@ -1,4 +1,4 @@
-##🌟 Visit Map – Mapa de visitas por país
+## 🌟 Visit Map – Mapa de visitas por país
 Proyecto que registra las visitas a un sitio web en una base de datos y las muestra en un mapa mundial interactivo junto con una tabla de países, usando PHP, MySQL, jVectorMap y banderas por país.
 
 --- 
@@ -12,7 +12,7 @@ Proyecto que registra las visitas a un sitio web en una base de datos y las mues
 ​
 ---
 
-##✨ Vista previa
+## ✨ Vista previa
 
 ![mapa_visitas_Preview](previewmap.gif)
 
