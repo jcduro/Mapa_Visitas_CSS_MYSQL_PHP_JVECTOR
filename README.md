@@ -148,6 +148,16 @@ La carpeta flags y la hoja de estilos de banderas estén correctamente referenci
 Accede a map.php desde el navegador.
 Cada visita se registrará y se verá reflejada en el mapa y en la tabla.
 
-## ✨Licencia
-Usalo como quieras
+
+--- 
+
+## 📄 Licencia
+Libre, usalo como quieras
+<div align="center">
+  Hecho con 💙 y neones
+</div>
+
+---
+
+## ⭐ Si te gustó este proyecto, no olvides dejar una estrella en GitHub!
 
